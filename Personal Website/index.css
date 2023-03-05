@@ -1,0 +1,191 @@
+body{
+    color: antiquewhite !important;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+    margin-top:2%;
+    line-height: 1.5;
+    background-image: url(https://www.zastavki.com/pictures/1920x1080/2014/Backgrounds_Black_wallpaper_with_the_city_078563_23.jpg);
+    background-repeat:space;
+    background-size:cover;
+    background-position: center;
+    font-family: 'Courier New', monospace;
+}
+
+#aboutMartin{
+    visibility: hidden;
+    
+    margin-top: 2%;
+    border-radius: 2%;
+
+}
+
+#certificates{
+    visibility: hidden;
+}
+
+#worked{
+    visibility: hidden;
+}
+
+#proglanguages{
+    visibility: hidden;
+}
+
+#form{
+    visibility: hidden;
+}
+
+.naming{
+    border:5px solid antiquewhite;
+    height:auto;
+    width:auto;
+    padding: 1%;
+    margin-left:3%;
+    color: antiquewhite;
+    transform-style: preserve-3d;
+    animation-name: spin;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+ 
+  
+  .naming:hover {
+    animation-play-state: paused;
+    transform: rotate3d(1, 1, 0, 360deg);
+}
+  
+  @keyframes spin {
+    from {
+       transform: rotate3d(0, 0, 1, 0deg);
+    }
+    to {
+       transform: rotate3d(1, 1, 0, 360deg);
+    }
+  }
+
+.name{
+    margin: auto;
+    bottom: 0;
+    padding: 0;
+}
+
+h4{
+    top:0;
+}
+.navigationInit{
+    margin: 0 10%;
+    color:antiquewhite;
+    display:flex;
+    justify-content: space-around;
+    height: 100%;
+    align-content: center;
+}
+
+
+section{
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.button{
+    border-radius: 9999px;
+    color:black;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 100%;
+    border: 2px solid antiquewhite;
+    text-align: center;
+    font-size: 100%;
+    padding: auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover{
+    background-color: grey;
+    color:black;
+    border: 2px solid antiquewhite;
+ }
+
+li{
+    list-style: none;
+    padding: auto;
+    margin:auto;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    margin-top: 50px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    opacity: 0.9;
+}
+
+.containerForImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 20%;
+    border: 17px solid antiquewhite;
+    
+}
+  
+  .containerForImg img{
+    height:auto;
+  }
+
+  .big-img {
+    flex-grow: 1;
+    flex-basis: 500px;
+  }
+  
+  .big-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:fill;
+    display: block;
+
+  }
+  
+  .small-img-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25.1%;
+    flex-grow:30%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .small-img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
